@@ -39,7 +39,6 @@ permissions:
 jobs:
   Analysis:
     runs-on: [self-hosted, macOS, X64]
-   
     steps:
       - name: Analyze with SonarQube
 
